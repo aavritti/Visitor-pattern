@@ -15,7 +15,7 @@ public class VisitorApplication {
     public static void main(String[] args) {
         final List<Shape> shapes = new ArrayList<>();
 
-        shapes.add(new Circle(10));
+        shapes.add(new Circle(10)); 
         shapes.add(new Rectangle(10, 2));
 
         final AreaVisitor areaVisitor = new AreaVisitor();
